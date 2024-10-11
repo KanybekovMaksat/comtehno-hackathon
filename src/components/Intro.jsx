@@ -27,7 +27,7 @@ const Intro = () => {
             </Button>
           </div>
           <img
-            src="/public/intro.png"
+            src="/intro.png"
             alt=""
             className="mt-10 md:mt-0 h-[250px] md:h-[450px] "
           />

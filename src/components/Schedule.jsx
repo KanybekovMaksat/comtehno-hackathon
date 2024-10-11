@@ -7,7 +7,7 @@ const HackathonDescription = () => {
         <Box className="flex gap-5 flex-col md:flex-row">
           <Box className="flex gap-5 flex-col md:flex-row">
             <img
-              src="/public/Rectangle 601 (2).png"
+              src="/Rectangle 601 (2).png"
               alt="Hackathon"
               className="h-[200px]"
             />

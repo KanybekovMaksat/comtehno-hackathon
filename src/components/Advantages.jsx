@@ -6,56 +6,56 @@ const Advantages = () => {
           На хакатоне вы
         </h2>
         <div className="flex justify-between lg-max:flex-wrap lg-max:justify-center">
-          <div className="card flex flex-col gap-1 w-[280px] items-center">
+          <div className="card flex flex-col gap-3 w-[280px] items-center">
             <img
-              src="/public/pazl.png"
+              src="/pazl.png"
               alt=""
               className="h-[200px] w-[200px]"
             />
             <h3 className="text-[14px] font-medium font-serif text-center">
-              Создать работающий <br /> прототип
+              Создадите работающий <br /> прототип
             </h3>
             <p className="text-center text-[13px] font-medium">
               За короткое время вы сможете создать MVP (минимально
               жизнеспособный продукт) и презентовать его жюри.
             </p>
           </div>
-          <div className="card gap-1 flex flex-col w-[280px] items-center">
+          <div className="card gap-3 flex flex-col w-[280px] items-center">
             <img
-              src="/public/people.png"
+              src="/people.png"
               alt=""
               className="h-[200px] w-[200px]"
             />
             <h3 className="text-[14px] font-medium font-serif text-center">
-              Познакомиться с единомышленниками
+              Познакомитесь с единомышленниками
             </h3>
             <p className="text-center text-[13px] font-medium">
               Хакатон — отличное место для нетворкинга. Вы встретите талантливых
               разработчиков, дизайнеров, предпринимателей и экспертов
             </p>
           </div>
-          <div className="card gap-1 flex flex-col w-[280px] items-center">
+          <div className="card gap-3 flex flex-col w-[280px] items-center">
             <img
-              src="/public/chart.png"
+              src="/chart.png"
               alt=""
               className="h-[200px] w-[200px]"
             />
             <h3 className="text-[14px] font-medium font-serif text-center">
-              Получить опыт и улучшить навыки
+              Получите опыт и улучшить навыки
             </h3>
             <p className="text-center text-[13px] font-medium">
               За короткое время вы сможете создать MVP (минимально
               жизнеспособный продукт) и презентовать его жюри.
             </p>
           </div>
-          <div className="card gap-1 flex flex-col w-[280px] items-center">
+          <div className="card gap-3 flex flex-col w-[280px] items-center">
             <img
-              src="/public/case.png"
+              src="/case.png"
               alt=""
               className="h-[200px] w-[200px]"
             />
             <h3 className="text-[14px] font-medium font-serif text-center">
-              Начать или развить свой стартап
+              Начнете свой <br /> стартап
             </h3>
             <p className="text-center text-[13px] font-medium">
               Ваш проект может стать основой для успешного бизнеса. Многие

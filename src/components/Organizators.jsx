@@ -22,9 +22,12 @@ const Organization = () => {
           <Card className="hover:shadow-lg transition-shadow duration-300 bg-white">
             <CardContent className="text-center">
               <Avatar className="mx-auto h-20 w-20 bg-[white]">
-                <img src="/public/download.jpeg" alt="Мэрия" />
+                <img src="/download.jpeg" alt="Мэрия" />
               </Avatar>
-              <Typography variant="h6" className="font-bold text-[16px] text-blue-600 font-serif">
+              <Typography
+                variant="h6"
+                className="font-bold text-[16px] text-blue-600 font-serif"
+              >
                 Департамент физической культуры и спорта, туризма и работы с
                 молодежью
               </Typography>
@@ -40,9 +43,12 @@ const Organization = () => {
           <Card className="hover:shadow-lg transition-shadow duration-300 bg-white">
             <CardContent className="text-center">
               <Avatar className="mx-auto h-20 w-20 bg-[white]">
-                <img src="/public/2222.png" alt="" />
+                <img src="/2222.png" alt="" />
               </Avatar>
-              <Typography variant="h6" className="font-bold text-green-600 font-serif text-[16px]">
+              <Typography
+                variant="h6"
+                className="font-bold text-green-600 font-serif text-[16px]"
+              >
                 Международный университет инновационных технологий (МУИТ)
               </Typography>
               <Typography variant="body2" className="text-gray-600 mt-2">
@@ -58,12 +64,15 @@ const Organization = () => {
             <CardContent className="text-center">
               <Avatar className="mx-auto h-20 w-20 bg-[white]">
                 <img
-                  src="/public/cropped-cropped-1789_oooo.plus_-2-300x300 (4)(1).png"
+                  src="/cropped-cropped-1789_oooo.plus_-2-300x300 (4)(1).png"
                   className=""
                   alt=""
                 />
               </Avatar>
-              <Typography variant="h6" className="font-bold text-green-800 font-serif text-[16px]">
+              <Typography
+                variant="h6"
+                className="font-bold text-green-800 font-serif text-[16px]"
+              >
                 Бишкекский колледж компьютерных систем и технологий (КОМТЕХНО)
               </Typography>
               <Typography variant="body2" className="text-gray-600 mt-2">
