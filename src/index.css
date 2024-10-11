@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .intro {
-  height: 450px;
+  min-height: 450px;
   background: rgb(232, 248, 254);
   background: linear-gradient(
     126deg,

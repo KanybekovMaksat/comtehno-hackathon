@@ -1,19 +1,24 @@
-import { Button } from "@mui/material";
+import { AppBar, Toolbar, Typography, Button, Container, Box } from '@mui/material';
 
 const Header = () => {
   return (
-    <header className="h-[111px]">
-      <div className="container">
-        <div className="flex justify-between items-center h-[111px]">
-          <div className="header_box">
-            <h3 className="font-bold font-serif ">The SMART Bishkek</h3>
-          </div>
-          <div className="header_box">
-            <Button variant="contained" className="shadow-none">Регистрация</Button>
-          </div>
-        </div>
-      </div>
-    </header>
+    <AppBar position="fixed" color="default" className="shadow-none">
+      <Container maxWidth="lg">
+        <Toolbar className="flex justify-between items-center p-0 md:px-[20px] ">
+          <Box className="header_box">
+            <Typography variant="h6" className="font-medium text-[15px] md:font-bold font-serif">
+              Хакатон <br />
+              ГОРОД БУДУЩЕГО
+            </Typography>
+          </Box>
+          <Box className="header_box">
+            <Button variant="contained" className="shadow-none">
+              Регистрация
+            </Button>
+          </Box>
+        </Toolbar>
+      </Container>
+    </AppBar>
   );
 };
 

@@ -1,29 +1,28 @@
-import Advantages from './components/Advantages';
-import Creteria from './components/Creteria';
-import Footer from './components/Footer';
-import Header from './components/header';
-import Intro from './components/Intro';
-import Mentors from './components/Mentors';
-import News from './components/News';
-import Schedule from './components/Schedule';
-import { StyledEngineProvider } from '@mui/material';
-import Program from './components/Program';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home-page';
+import { Register } from './pages/register-page';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const App = () => {
   return (
-    <>
-      <StyledEngineProvider injectFirst>
-        <Header />
-        <Intro />
-        <Schedule />
-        <Advantages />
-        <Program/>
-        <Creteria/>
-        <Mentors />
-        <News/>
-        <Footer/>
-      </StyledEngineProvider>
-    </>
+    <Router>
+      <ToastContainer
+        position="top-right"
+        autoClose={1500}
+        hideProgressBar
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="colored"
+      />
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 

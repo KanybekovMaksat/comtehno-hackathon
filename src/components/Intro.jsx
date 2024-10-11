@@ -2,24 +2,29 @@ import { Button } from '@mui/material';
 
 const Intro = () => {
   return (
-    <section className="intro">
-      <div className="flex">
-        <div className="container">
-          <h1 className="text-2xl font-bold pt-[100px] pb-4">
-            Хакатон Город БУДУЩЕГО Bishkek
-          </h1>
-          <p className="pb-5">
-            Онлайн-программа обучения навыкам социального проектирования для
-            финалистов конкурса «Могу всё изменить!» позволит запустить и
-            масштабировать свои социальные проекты при поддержке команды
-            наставников, экспертов и советников, которые помогут подготовиться к
-            грантовому конкурсу и повысят шансы на победу.
-          </p>
-          <Button variant="contained" className="shadow-none">
-            Регистрация
-          </Button>
+    <section className="intro mt-20">
+      <div className="container">
+        <div className="flex lg-max:flex-col ">
+          <div className=" md-max:flex md-max:flex-col">
+            <h1 className="text-2xl font-bold pt-[50px] md:pt-[100px] pb-4 font-serif text-center md:text-left">
+              Хакатон <br /> ГОРОД БУДУЩЕГО
+            </h1>
+            <p className="pb-5 font-sans font-bold">
+              Хакатон «Бишкек — Город будущего» — это уникальная возможность для
+              молодежи и IT-специалистов внести свой вклад в развитие города
+              через цифровые решения. Основные цели включают улучшение экологии
+              и поддержку здорового образа жизни.
+            </p>
+            <Button variant="contained" className="shadow-none">
+              Регистрация
+            </Button>
+          </div>
+          <img
+            src="/public/intro.png"
+            alt=""
+            className="mt-10 md:mt-0 h-[250px] md:h-[450px] "
+          />
         </div>
-        <img src="/public/intro.png" alt="" className="h-[450px]" />
       </div>
     </section>
   );

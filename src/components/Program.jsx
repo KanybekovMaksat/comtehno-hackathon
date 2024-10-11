@@ -10,19 +10,19 @@ const Program = () => {
       >
         Программа Хакатона
       </Typography>
-      <Box className="relative mb-16 w-[800px] m-auto">
+      <Box className="relative mb-16 max-w-full lg:w-[800px] mx-auto">
         <Typography variant="h5" className="text-blue-600 mb-4 font-serif">
           День 1 – 28 октября
         </Typography>
         <Divider
           orientation="vertical"
           flexItem
-          className="absolute left-10 h-full border-l-2 border-blue-500"
+          className="absolute left-4 lg:left-10 h-full border-l-2 border-blue-500"
         />
 
-        <Box className="ml-20 space-y-10  ">
+        <Box className="ml-8 lg:ml-20 space-y-10">
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 09:00 – 10:00
               </Typography>
@@ -37,7 +37,7 @@ const Program = () => {
             </Paper>
           </Box>
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 10:00 – 11:30
               </Typography>
@@ -52,7 +52,7 @@ const Program = () => {
             </Paper>
           </Box>
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 13:30 – 16:00
               </Typography>
@@ -70,20 +70,20 @@ const Program = () => {
         </Box>
       </Box>
 
-      <Box className="relative mb-16 w-[800px] m-auto">
+      <Box className="relative mb-16 max-w-full lg:w-[800px] mx-auto">
         <Typography variant="h5" className="text-blue-600 mb-4 font-serif">
           День 2 – 29 октября
         </Typography>
         <Divider
           orientation="vertical"
           flexItem
-          className="absolute left-10 h-full border-l-2 border-blue-500"
+          className="absolute left-4 lg:left-10 h-full border-l-2 border-blue-500"
         />
 
-        <Box className="ml-20 space-y-10">
+        <Box className="ml-8 lg:ml-20 space-y-10">
           {/* Быстрая разработка */}
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 09:30 – 10:00
               </Typography>
@@ -101,7 +101,7 @@ const Program = () => {
 
           {/* Разработка концепций */}
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 10:30 – 13:00
               </Typography>
@@ -115,10 +115,8 @@ const Program = () => {
               </Typography>
             </Paper>
           </Box>
-
-          {/* Промежуточная презентация */}
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 17:00 – 18:00
               </Typography>
@@ -136,18 +134,18 @@ const Program = () => {
       </Box>
 
       {/* День 3 */}
-      <Box className="relative w-[800px] m-auto">
+      <Box className="relative max-w-full lg:w-[800px] mx-auto">
         <Typography variant="h5" className="text-blue-600 mb-4 font-serif">
           День 3 – 30 октября
         </Typography>
         <Divider
           orientation="vertical"
           flexItem
-          className="absolute left-10 h-[90%] border-l-2 border-blue-500"
+          className="absolute left-4 lg:left-10 h-[90%] border-l-2 border-blue-500"
         />
-        <Box className="ml-20 space-y-10">
+        <Box className="ml-8 lg:ml-20 space-y-10">
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 09:30 – 13:00
               </Typography>
@@ -162,7 +160,7 @@ const Program = () => {
             </Paper>
           </Box>
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 16:00 – 18:00
               </Typography>
@@ -177,12 +175,12 @@ const Program = () => {
             </Paper>
           </Box>
           <Box className="flex items-start space-x-4">
-            <Box className="w-28">
+            <Box className="w-20 lg:w-28">
               <Typography variant="body1" className="text-gray-600 font-bold font-sans">
                 18:00 – 18:30
               </Typography>
             </Box>
-            <Paper elevation={3} className="p-4 w-full bg-white shadow-none ">
+            <Paper elevation={3} className="p-4 w-full bg-white shadow-none">
               <Typography variant="body1" className="font-bold">
                 Подведение итогов и награждение
               </Typography>

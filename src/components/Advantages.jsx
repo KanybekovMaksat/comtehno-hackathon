@@ -2,8 +2,10 @@ const Advantages = () => {
   return (
     <section className="my-20">
       <div className="container">
-        <h2 className="font-serif text-2xl font-medium">На хакатоне вы</h2>
-        <div className="flex justify-between">
+        <h2 className="font-serif text-2xl font-medium lg-max:text-center">
+          На хакатоне вы
+        </h2>
+        <div className="flex justify-between lg-max:flex-wrap lg-max:justify-center">
           <div className="card flex flex-col gap-1 w-[280px] items-center">
             <img
               src="/public/pazl.png"
@@ -63,7 +65,21 @@ const Advantages = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Advantages;
+export default Advantages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
