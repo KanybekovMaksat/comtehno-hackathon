@@ -1,6 +1,12 @@
 import { AppBar, Toolbar, Typography, Button, Container, Box } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleRegister = () => {
+    navigate('/register'); // Change '/registration' to your desired route
+  };
   return (
     <AppBar position="fixed" color="default" className="shadow-none">
       <Container maxWidth="lg">
@@ -12,7 +18,7 @@ const Header = () => {
             </Typography>
           </Box>
           <Box className="header_box">
-            <Button variant="contained" className="shadow-none">
+            <Button  onClick={handleRegister} variant="contained" className="shadow-none">
               Регистрация
             </Button>
           </Box>

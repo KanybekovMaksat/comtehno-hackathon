@@ -1,6 +1,13 @@
 import { Button } from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const Intro = () => {
+  const navigate = useNavigate();
+
+  const handleRegister = () => {
+    navigate('/register'); 
+  };
+
   return (
     <section className="intro mt-20">
       <div className="container">
@@ -15,7 +22,7 @@ const Intro = () => {
               через цифровые решения. Основные цели включают улучшение экологии
               и поддержку здорового образа жизни.
             </p>
-            <Button variant="contained" className="shadow-none">
+            <Button onClick={handleRegister} variant="contained" className="shadow-none">
               Регистрация
             </Button>
           </div>
