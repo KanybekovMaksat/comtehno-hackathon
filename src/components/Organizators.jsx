@@ -13,7 +13,7 @@ const Organization = () => {
       <Typography
         variant="h4"
         component="h2"
-        className="text-center text-blue-600 mb-8"
+        className="text-center text-blue-600 mb-8 font-serif font-medium text-2xl"
       >
         Организаторы Хакатона
       </Typography>
