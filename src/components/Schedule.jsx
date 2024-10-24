@@ -17,7 +17,7 @@ const HackathonDescription = () => {
                   Сроки регистрации
                 </Typography>
                 <Typography variant="body1" className="font-serif">
-                  С 10 октября по <br /> 24 октября
+                  С 10 октября по <br /> 25 октября
                 </Typography>
               </CardContent>
             </Card>
