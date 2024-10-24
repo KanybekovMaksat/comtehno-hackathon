@@ -11,7 +11,7 @@ const Program = () => {
       >
         Программа Хакатона
       </Typography>
-      <Button
+      {/* <Button
       variant="contained"
       color="primary"
       className="bg-blue-600 shadow-none text-white py-2 px-4 rounded-lg"
@@ -20,7 +20,7 @@ const Program = () => {
 
     >
       Скачать полную программу
-    </Button>
+    </Button> */}
       </div>
       <Box className="relative mb-16 max-w-full lg:w-[800px] mx-auto">
         <Typography variant="h5" className="text-blue-600 mb-4 font-serif">

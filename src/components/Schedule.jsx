@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography, Box } from "@mui/material";
+import { Card, CardContent, Typography, Box } from '@mui/material';
 
 const HackathonDescription = () => {
   return (
@@ -17,44 +17,46 @@ const HackathonDescription = () => {
                   Сроки регистрации
                 </Typography>
                 <Typography variant="body1" className="font-serif">
-                  С 10 октября по <br /> 25 октября
+                  С 10 октября по <br /> 24 октября
                 </Typography>
               </CardContent>
             </Card>
           </Box>
-          <Box >
+          <Box>
             <Typography variant="h5" className="font-medium font-serif mb-4">
               Темы хакатона:
             </Typography>
             <div className="flex flex-col gap-5">
-        <Card className="hover:shadow-xl transition-shadow rounded-lg bg-white">
-          <CardContent>
-            <Typography 
-              variant="h6" 
-              className="font-medium font-serif text-gray-800"
-            >
-              Экология и благоустройство города
-            </Typography>
-            <Typography className="text-gray-600 mt-2">
-              Проекты, направленные на улучшение экологии, озеленение и создание устойчивой городской инфраструктуры.
-            </Typography>
-          </CardContent>
-        </Card>
+              <Card className="hover:shadow-xl transition-shadow rounded-lg bg-white">
+                <CardContent>
+                  <Typography
+                    variant="h6"
+                    className="font-medium font-serif text-gray-800"
+                  >
+                    Экология и благоустройство города
+                  </Typography>
+                  <Typography className="text-gray-600 mt-2">
+                    Проекты, направленные на улучшение экологии, озеленение и
+                    создание устойчивой городской инфраструктуры.
+                  </Typography>
+                </CardContent>
+              </Card>
 
-        <Card className="hover:shadow-xl transition-shadow rounded-lg bg-white">
-          <CardContent>
-            <Typography 
-              variant="h6" 
-              className="font-medium font-serif text-gray-800"
-            >
-              Здоровый образ жизни
-            </Typography>
-            <Typography className="text-gray-600 mt-2">
-              Проекты, способствующие популяризации здорового образа жизни, фитнеса и спортивных мероприятий.
-            </Typography>
-          </CardContent>
-        </Card>
-      </div>
+              <Card className="hover:shadow-xl transition-shadow rounded-lg bg-white">
+                <CardContent>
+                  <Typography
+                    variant="h6"
+                    className="font-medium font-serif text-gray-800"
+                  >
+                    Здоровый образ жизни
+                  </Typography>
+                  <Typography className="text-gray-600 mt-2">
+                    Проекты, способствующие популяризации здорового образа
+                    жизни, фитнеса и спортивных мероприятий.
+                  </Typography>
+                </CardContent>
+              </Card>
+            </div>
           </Box>
         </Box>
       </div>
