@@ -1,4 +1,4 @@
-import { Box, Typography, Paper, Divider, Button } from '@mui/material';
+import { Box, Typography, Paper, Divider } from '@mui/material';
 
 const Program = () => {
   return (
@@ -126,7 +126,7 @@ const Program = () => {
                 variant="body1"
                 className="text-gray-600 font-bold font-sans"
               >
-                10:30 – 17:00
+                10:30 – 18:00
               </Typography>
             </Box>
             <Paper elevation={3} className="p-4 w-full bg-white shadow-none">
@@ -138,7 +138,7 @@ const Program = () => {
               </Typography>
             </Paper>
           </Box>
-          <Box className="flex items-start">
+          {/* <Box className="flex items-start">
             <Box className="w-20 lg:w-28">
               <Typography
                 variant="body1"
@@ -155,7 +155,7 @@ const Program = () => {
                 Команды представляют идеи и прототипы, получают обратную связь.
               </Typography>
             </Paper>
-          </Box>
+          </Box> */}
         </Box>
       </Box>
       <Box className="relative max-w-full lg:w-[800px] mx-auto">
@@ -174,7 +174,7 @@ const Program = () => {
                 variant="body1"
                 className="text-gray-600 font-bold font-sans"
               >
-                09:30 – 13:00
+                11:00 – 13:00
               </Typography>
             </Box>
             <Paper elevation={3} className="p-4 w-full bg-white shadow-none">

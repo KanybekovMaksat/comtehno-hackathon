@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Intro from '../components/Intro';
 import News from '../components/News';
 import Schedule from '../components/Schedule';
-import Program from '../components/Program';
+// import Program from '../components/Program';
 import Organization from '../components/Organizators';
 import { StyledEngineProvider } from '@mui/material';
 
@@ -17,7 +17,7 @@ const Home = () => {
         <Intro />
         <Schedule />
         <Advantages />
-        <Program />
+        {/* <Program /> */}
         <Creteria />
         {/* <Mentors /> */}
         <Organization />
