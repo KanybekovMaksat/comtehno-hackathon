@@ -1,12 +1,12 @@
-import { Button } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+// import { Button } from '@mui/material';
+// import { useNavigate } from 'react-router-dom';
 
 const Intro = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleRegister = () => {
-    navigate('/register'); 
-  };
+  // const handleRegister = () => {
+  //   navigate('/register'); 
+  // };
 
   return (
     <section className="intro mt-20">

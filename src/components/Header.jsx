@@ -1,12 +1,12 @@
-import { AppBar, Toolbar, Typography, Button, Container, Box } from '@mui/material';
-import { useNavigate } from 'react-router-dom';
+import { AppBar, Toolbar, Typography, Container, Box } from '@mui/material';
+// import { useNavigate } from 'react-router-dom';
 
 const Header = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const handleRegister = () => {
-    navigate('/register'); // Change '/registration' to your desired route
-  };
+  // const handleRegister = () => {
+  //   navigate('/register'); // Change '/registration' to your desired route
+  // };
   return (
     <AppBar position="fixed" color="default" className="shadow-none">
       <Container maxWidth="lg">
