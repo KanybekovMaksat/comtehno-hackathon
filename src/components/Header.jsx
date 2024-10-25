@@ -18,9 +18,9 @@ const Header = () => {
             </Typography>
           </Box>
           <Box className="header_box">
-            <Button  onClick={handleRegister} variant="contained" className="shadow-none">
+            {/* <Button  onClick={handleRegister} variant="contained" className="shadow-none">
               Регистрация
-            </Button>
+            </Button> */}
           </Box>
         </Toolbar>
       </Container>

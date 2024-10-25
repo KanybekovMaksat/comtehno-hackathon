@@ -22,9 +22,9 @@ const Intro = () => {
               через цифровые решения. Основные цели включают улучшение экологии
               и поддержку здорового образа жизни.
             </p>
-            <Button onClick={handleRegister} variant="contained" className="shadow-none">
+            {/* <Button onClick={handleRegister} variant="contained" className="shadow-none">
               Регистрация
-            </Button>
+            </Button> */}
           </div>
           <img
             src="/intro.png"
