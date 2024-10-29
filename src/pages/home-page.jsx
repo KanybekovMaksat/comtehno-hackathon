@@ -20,7 +20,7 @@ const Home = () => {
         <Creteria />
         {/* <Mentors /> */}
         <Organization />
-
+   
         <News />
         <Footer />
       </StyledEngineProvider>

@@ -17,6 +17,9 @@ const Organization = () => {
       >
         Организаторы Хакатона
       </Typography>
+      <p className="text-center text-[#292929] font-sans mb-5">
+              Контакты организаторов: <strong>+996 707 379957</strong> Гульбахор Ашимжановна
+            </p>
       <Grid container spacing={4} className="contai">
         <Grid item xs={12} md={4}>
           <Card className="hover:shadow-lg transition-shadow duration-300 bg-white">
