@@ -178,8 +178,14 @@ const Program = () => {
           День 3 – Среда, 30 октября 2024 года
         </Typography>
         <Typography variant="body1" className="text-gray-500 mb-6 font-sans">
-          Место проведения: <a className="underline text-blue-500" href="https://go.2gis.com/06v8p">Technopark</a>, конференц-зал Амфитеатр Flutter, улица
-          Горького, 1/2, 1 этаж
+          Место проведения:{' '}
+          <a
+            className="underline text-blue-500"
+            href="https://go.2gis.com/06v8p"
+          >
+            Technopark
+          </a>
+          , конференц-зал Амфитеатр Flutter, улица Горького, 1/2, 1 этаж
         </Typography>
         <Divider
           orientation="vertical"
@@ -237,8 +243,10 @@ const Program = () => {
                 Приветственная речь
               </Typography>
               <Typography variant="body2" className="text-gray-600">
-                Представитель мэрии г. Бишкек открывает хакатон и делится целями
-                мероприятия.
+                Заведующий отдела организационной правовой и кадровой работы
+                Департамента физической культуры и спорта, туризма и работы с
+                молодежью мэрии города Бишкек Аманалиев Данияр Джоомартович,
+                открывает хакатон и делится целями мероприятия.
               </Typography>
             </Paper>
           </Box>
@@ -273,10 +281,6 @@ const Program = () => {
             <Paper elevation={3} className="p-4 w-full bg-white shadow-none">
               <Typography variant="body1" className="font-bold font-serif">
                 Фуршет
-              </Typography>
-              <Typography variant="body2" className="text-gray-600">
-                Члены жюри собираются для обсуждения проектов и выставления
-                баллов.
               </Typography>
             </Paper>
           </Box>
